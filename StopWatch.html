@@ -6,20 +6,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SPS</title>
+    <title>StopWatch P</title>
     <link rel="stylesheet" type="text/css" href="SWStyle.css"/>
-    <link href="images/favicon-32x32.png" type="image/png" rel="shortcut icon"
 </head>
-<script src='StopWatch.js'></script>
 
 <body>
 <div class="wrapper">
 <h1>Stopwatch</h1>
 <h2>Vanilla JavaScript Stopwatch</h2>
 <p><span id="seconds">00</span>:<span id="tens">00</span></p>
-<button id="button-start">Start</button>
-<button id="button-stop">Stop</button>
-<button id="button-reset">Reset</button>
+<button onclick='buttonStart'id="button-start">Start</button>
+<button onclick='buttonStop'id="button-stop">Stop</button>
+<button onclick='buttonReset' id="button-reset">Reset</button>
 </div> 
+<script src='./StopWatch.js'></script>
 </body>
 </html>
